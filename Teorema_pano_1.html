@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Teorema_pano_1</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+<link rel="stylesheet" href="Teorema_pano_1.css" type="text/css">
+
+
+<script type="text/javascript" src="..\..\dist\b4w.js"></script>
+ <script type="text/javascript" src = "papaparse.js"></script>
+<script type="text/javascript" src="Teorema_pano_1.js"></script>
+
+<script type="text/javascript">
+    function hide(i) {
+        document.getElementById(i).style.display = "none";
+    }
+</script>
+
+</head>
+
+<body>
+
+<div class = "header_dummy"></div>
+
+	<div id="shadow"></div>
+
+<div id = "a1">
+
+				<div id="main_canvas_container"> </div>
+				
+			
+				<div id="butt_container1">
+				    <div  class="inline" id ="inf_img"></div>
+					</div>
+					
+				<div id="butt_container2">	
+					<div  class="inline" id="left_button"></div>
+					<div  class="inline" id="right_button"></div>
+					<div  class="inline" id="up_button"></div>
+					<div  class="inline" id="down_button"></div>
+					<div  class="inline" id="zoomin_button"></div>
+					<div  class="inline" id="zoomout_button"></div>
+				</div>
+				<div id="preloader_bg"></div>
+				
+
+
+</div>
+
+
+	<div id ="card" class ="card">
+<div class ="closespotbtn" onclick="hide('card'), hide ('shadow')"></div>	
+
+<div class = "kvp_logo"></div>	
+
+
+<div class="card_body">
+<h1 id="h_mob"></h1>
+
+
+<div class="card_img"><img id='spot_img' src=""></div>
+<div class="card_roza"><img src="/uchastki-izhs/img/spots_kvp/roza_kvp.png"></div>
+
+<div class="card_name"><b>Площадь участка</b><div id ="card_area_size" class="card_value"></div></div>
+<div class="card_name"><b>Стоимость участка базовая</b><div id ="card_full_price" class="card_value"></div></div>
+<div class="card_name"><b>Стоимость участка <br>при 100% оплате</b><div id ="card_discount_price" class="card_value"></div></div>
+
+<div class="card_btn_line">	
+	<div class="card_btn"><button class="cardbtn btn_padding">Забронировать</button></div>
+
+	
+	</div>
+
+</div>
+</div>
+ 
+
+
+</body>
+
+</html>
